@@ -41,6 +41,7 @@ nav{
 nav ul{
     display: flex;
     list-style-type: none;
+    padding: 0;
 }
 nav li{
     display: inline-block;
@@ -141,14 +142,14 @@ footer>p{
     }
     #close{
         display: block;
-        margin-top: 6vh;
+        margin-top: 35px;
     }
     #content{
         display: block;
-        height: 102vh;
+        height: 100vh;
         width: 40vw;
         position: fixed;
-        top: -2vh;
+        top: -16px;
         right: -400px;
         z-index: 1;
         background: #333333;
@@ -161,7 +162,7 @@ footer>p{
     }
     #content a, #close{
         display: block;
-        padding: 2vh 0;
+        padding: 2vh 0 2vh 10px;
         color: #ffffff;
     }
     #content li:hover {
